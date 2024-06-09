@@ -18,8 +18,10 @@ const Authprovider = ({children}) => {
 
 
 
-    const login =(email , password)=>{
-        return signInWithEmailAndPassword( auth ,email , password)
+    const login = ( email , password)=>{
+ 
+    
+        return signInWithEmailAndPassword(auth ,email , password)
     }
 
     const logout =()=>{
@@ -30,11 +32,11 @@ const Authprovider = ({children}) => {
 
 
     useEffect(()=>{
-        const unsubcribe = onAuthStateChanged(auth , currentuser =>{
-            console.log('user state is change ' ,currentuser)
-            setUser(currentuser)
-        })
-        return unsubcribe()
+        const unsubcribe = onAuthStateChanged(auth , currentUser =>{
+            console.log('user state is change ' ,currentUser)
+            setUser(currentUser)
+        });
+        return ()=> {unsubcribe()}
     },[])
 
 
