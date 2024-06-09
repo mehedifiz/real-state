@@ -17,7 +17,7 @@ import Home from "../Pages/Home";
                 {
                     path:'/',
                     element:<Home></Home>,
-                    loader: ()=> fetch('data.json')
+                    loader: ()=> fetch('/data.json')
                 },
                 {
                   path: '/register',
@@ -28,7 +28,7 @@ import Home from "../Pages/Home";
                   element:<Login></Login>
                 },
                 {
-                  path:'/estate',
+                  path:'/estate/:id',
                   element: <Estate></Estate>
                 }
               ]

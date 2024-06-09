@@ -1,6 +1,10 @@
+import { useContext } from "react";
+import { AuthContext } from "../Firebase/Authprovider/Authprovider";
 
 
 const Login = () => {
+
+    const {login}=useContext(AuthContext)
 
 
     const handleLogin =(e)=>{
@@ -11,6 +15,16 @@ const Login = () => {
      const email = form.get('email');
      const password = form.get('password');
      console.log(email , password )
+
+     login(email , password)
+     .then(result =>{
+        console.log(result)
+
+    
+     })
+     .catch(error =>{
+        console.log(error)
+    })
     }
 
     return (

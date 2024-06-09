@@ -1,9 +1,11 @@
+import { useParams } from "react-router-dom";
 
 const Estate = () => {
+    const {id} = useParams()
     return (
         <div>
 
-            <h3>estate </h3>
+            <h3>{id} </h3>
             
         </div>
     );

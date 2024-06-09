@@ -1,5 +1,9 @@
+import { useContext } from "react";
+import { AuthContext } from "../Firebase/Authprovider/Authprovider";
 
 const Register = () => {
+    const {createuserwithemail} = useContext(AuthContext)
+
 
 const handleRegister =(e)=>{
     e.preventDefault()
@@ -11,6 +15,14 @@ const form = new FormData(e.currentTarget)
  const password = form.get('password');
  const Cpassword = form.get('Cpassword');
  console.log(email , name , password , Cpassword)
+
+ createuserwithemail(email , password)
+ 
+ .then(result =>{
+    console.log(result.user)
+ })
+
+
 }
 
 

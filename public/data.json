@@ -58,5 +58,17 @@
         "location": "987 Market St, Urban City",
         "facilities": ["living room", "kitchen", "parking", "gym"],
         "image": "https://plus.unsplash.com/premium_photo-1683769252575-e986af039184?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8QXBhcnRtZW50fGVufDB8fDB8fHww"
+    },
+    {
+        "id": "6",
+        "estate_title": "Senior Living Community",
+        "segment_name": "Residential",
+        "description": "A welcoming senior living community with accessible facilities and social activities.",
+        "price": "$300,000",
+        "status": "rent",
+        "area": "1000 sq ft",
+        "location": "987 Market St, Urban City",
+        "facilities": ["living room", "kitchen", "parking", "gym"],
+        "image": "https://images.unsplash.com/photo-1630699144867-37acec97df5a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEFwYXJ0bWVudHxlbnwwfHwwfHx8MA%3D%3D"
     }
 ]

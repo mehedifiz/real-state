@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 
 
 const Eachestate = ({estate}) => {
 
-    const {estate_title ,image ,description , status} = estate
+    const {estate_title ,image ,description , status , id} = estate
     
     
         return (
@@ -15,7 +16,8 @@ const Eachestate = ({estate}) => {
         </h2>
             <p>{description}</p>
         <div className="card-actions justify-end">
-         <button className="btn  btn-info btn-sm mt-4">Know more</button>
+
+         <Link to={`/estate/${id}`}><button className="btn  btn-info btn-sm mt-4">Know more</button></Link>
         </div>
       </div>
     </div>
