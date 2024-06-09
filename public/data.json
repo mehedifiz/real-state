@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "estate_title": "Modern Downtown Apartment",
+        "segment_name": "Residential",
+        "description": "A beautiful modern apartment located in the heart of downtown with stunning city views.",
+        "price": "$350,000",
+        "status": "sale",
+        "area": "1200 sq ft",
+        "location": "123 Main St, Downtown City",
+        "facilities": ["living room", "swimming pool", "kitchen", "gym", "parking"],
+        "image": "https://images.unsplash.com/photo-1515263487990-61b07816b324?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QXBhcnRtZW50fGVufDB8fDB8fHww"
+    },
+    {
+        "id": "2",
+        "estate_title": "Cozy Suburban Apartment",
+        "segment_name": "Residential",
+        "description": "A cozy and affordable apartment in a peaceful suburban neighborhood.",
+        "price": "$180,000",
+        "status": "sale",
+        "area": "800 sq ft",
+        "location": "456 Elm St, Suburbia",
+        "facilities": ["living room", "kitchen", "balcony", "parking"],
+        "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QXBhcnRtZW50fGVufDB8fDB8fHww"
+    },
+    {
+        "id": "3",
+        "estate_title": "Luxury High-Rise Apartment",
+        "segment_name": "Residential",
+        "description": "A luxury high-rise apartment with premium amenities and breathtaking skyline views.",
+        "price": "$750,000",
+        "status": "sale",
+        "area": "2000 sq ft",
+        "location": "789 Park Ave, Uptown City",
+        "facilities": ["living room", "swimming pool", "kitchen", "gym", "parking", "rooftop garden", "concierge service"],
+        "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QXBhcnRtZW50fGVufDB8fDB8fHww"
+    },
+    {
+        "id": "4",
+        "estate_title": "Spacious Family Apartment",
+        "segment_name": "Residential",
+        "description": "A spacious apartment perfect for families, located in a family-friendly neighborhood.",
+        "price": "$420,000",
+        "status": "sale",
+        "area": "1600 sq ft",
+        "location": "321 Maple Dr, Family Town",
+        "facilities": ["living room", "kitchen", "playground", "parking", "community center"],
+        "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8QXBhcnRtZW50fGVufDB8fDB8fHww"
+    },
+    {
+        "id": "5",
+        "estate_title": "Chic Urban Loft",
+        "segment_name": "Residential",
+        "description": "A chic and trendy loft in an urban area, ideal for young professionals.",
+        "price": "$300,000",
+        "status": "sale",
+        "area": "1000 sq ft",
+        "location": "987 Market St, Urban City",
+        "facilities": ["living room", "kitchen", "parking", "gym"],
+        "image": "https://plus.unsplash.com/premium_photo-1683769252575-e986af039184?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8QXBhcnRtZW50fGVufDB8fDB8fHww"
+    }
+]
