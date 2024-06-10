@@ -4,6 +4,7 @@ import Register from "../Pages/Register";
 import Login from "../Pages/Login";
 import Estate from "../Pages/estate";
 import Home from "../Pages/Home";
+import PrivateRoute from "../Firebase/PrivateRoute";
 
 
 
@@ -29,7 +30,7 @@ import Home from "../Pages/Home";
                 },
                 {
                   path:'/estate/:id',
-                  element: <Estate></Estate>,
+                  element: <PrivateRoute><Estate></Estate></PrivateRoute>,
                   loader: () =>fetch('/data.json')
                 }
               ]
