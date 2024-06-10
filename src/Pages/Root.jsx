@@ -5,9 +5,11 @@ import { ToastContainer } from "react-toastify";
 
 const Root = () => {
     return (
-        <div>
+        <div className="container">
            <Nav></Nav>
             <Outlet></Outlet>
+
+           
 
             <ToastContainer />
         </div>

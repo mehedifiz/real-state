@@ -69,6 +69,66 @@
         "area": "1000 sq ft",
         "location": "987 Market St, Urban City",
         "facilities": ["living room", "kitchen", "parking", "gym"],
-        "image": "https://images.unsplash.com/photo-1630699144867-37acec97df5a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEFwYXJ0bWVudHxlbnwwfHwwfHx8MA%3D%3D"
+        "image": "https://images.unsplash.com/photo-1628592102751-ba83b0314276?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGFwYXJ0bWVudHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": "7",
+        "estate_title": "Beachfront Condo",
+        "segment_name": "Residential",
+        "description": "A stunning beachfront condo with ocean views and direct beach access.",
+        "price": "$500,000",
+        "status": "sale",
+        "area": "1400 sq ft",
+        "location": "101 Ocean Drive, Beach City",
+        "facilities": ["living room", "kitchen", "swimming pool", "parking", "gym"],
+        "image": "https://media.istockphoto.com/id/1440918716/photo/luxury-apartment-terrace-with-hot-tub-hot-tub.webp?b=1&s=170667a&w=0&k=20&c=3DXy2jwW_1TWLXk9oKB2moB_1h-UOHIQhKBWE40CEZ4="
+    },
+    {
+        "id": "8",
+        "estate_title": "Downtown Studio Apartment",
+        "segment_name": "Residential",
+        "description": "A compact studio apartment perfect for singles or young couples, located in downtown.",
+        "price": "$220,000",
+        "status": "sale",
+        "area": "600 sq ft",
+        "location": "202 Broadway, Downtown City",
+        "facilities": ["living room", "kitchen", "parking"],
+        "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGFwYXJ0bWVudHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": "9",
+        "estate_title": "Countryside Cottage",
+        "segment_name": "Residential",
+        "description": "A charming cottage in the countryside, ideal for those looking for a peaceful retreat.",
+        "price": "$275,000",
+        "status": "sale",
+        "area": "1100 sq ft",
+        "location": "303 Country Lane, Countryside",
+        "facilities": ["living room", "kitchen", "garden", "parking"],
+        "image": "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG91c2V8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "id": "10",
+        "estate_title": "Urban Penthouse",
+        "segment_name": "Residential",
+        "description": "A luxurious penthouse in the city with panoramic views and exclusive amenities.",
+        "price": "$1,200,000",
+        "status": "sale",
+        "area": "2500 sq ft",
+        "location": "404 Skyline Blvd, City Center",
+        "facilities": ["living room", "kitchen", "swimming pool", "gym", "rooftop garden", "concierge service"],
+        "image": "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG91c2UlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": "11",
+        "estate_title": "Downtown Duplex",
+        "segment_name": "Residential",
+        "description": "A spacious duplex apartment in the heart of downtown, ideal for families.",
+        "price": "$600,000",
+        "status": "sale",
+        "area": "1800 sq ft",
+        "location": "505 Elm St, Downtown City",
+        "facilities": ["living room", "kitchen", "parking", "gym"],
+        "image": "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG91c2UlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D"
     }
 ]
