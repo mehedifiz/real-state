@@ -1,8 +1,14 @@
 import { useContext } from "react";
 import { AuthContext } from "../Firebase/Authprovider/Authprovider";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Login = () => {
     const { login } = useContext(AuthContext);
+    const navigate = useNavigate()
+
+    const location = useLocation();
+
+    console.log('logiin ' , location)
 
     const handleLogin = (e) => {
         e.preventDefault();
@@ -15,6 +21,9 @@ const Login = () => {
         login(email, password)
             .then(result => {
                 console.log(result);
+
+
+                    navigate(location?.state ? location.state : '/')
             })
             .catch(error => {
                 console.log(error);
@@ -22,7 +31,7 @@ const Login = () => {
     }
 
     return (
-        <div className="flex items-center justify-center min-h-screen">
+        <div className="flex items-center justify-center ">
             <form className="flex flex-col w-full max-w-sm" onSubmit={handleLogin}>
                 <input name="email" type="email" placeholder="Email" className="input input-bordered w-full mb-2" />
                 <input name="password" type="password" placeholder="Password" className="input input-bordered w-full mb-2" />
