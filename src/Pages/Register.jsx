@@ -1,12 +1,17 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../Firebase/Authprovider/Authprovider";
+import 'react-toastify/dist/ReactToastify.css';
+import { toast } from "react-toastify";
 
 const Register = () => {
     const {createuserwithemail} = useContext(AuthContext)
 
 
+
 const handleRegister =(e)=>{
     e.preventDefault()
+  
+
 
 const form = new FormData(e.currentTarget)
 
@@ -20,10 +25,18 @@ const form = new FormData(e.currentTarget)
  
  .then(result =>{
     console.log(result.user)
+    toast.success("Wow you are registered !", {
+        theme: "dracula"
+      });
+   
  })
  .catch(error =>{
     console.log(error)
-})
+    toast.error("There is an error", {
+        theme: "dracula"
+      })
+}
+)
 
 
 }
@@ -33,7 +46,7 @@ const form = new FormData(e.currentTarget)
     return (
        
         <form  onSubmit={handleRegister}>
-<div className="flex flex-col gap-4 items-center h-[100vh] mt-32 ">
+<div className="flex flex-col gap-4 items-center  mt-32 ">
 
 <input name="name" type="text" placeholder="Your name" className="input input-bordered w-full max-w-xs" />
 
@@ -45,6 +58,7 @@ const form = new FormData(e.currentTarget)
 
 <button className="btn  w-full max-w-xs" type="submit"> Register </button>
 </div>
+
 
 
         </form>

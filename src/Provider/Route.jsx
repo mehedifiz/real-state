@@ -29,7 +29,8 @@ import Home from "../Pages/Home";
                 },
                 {
                   path:'/estate/:id',
-                  element: <Estate></Estate>
+                  element: <Estate></Estate>,
+                  loader: () =>fetch('/data.json')
                 }
               ]
             },
