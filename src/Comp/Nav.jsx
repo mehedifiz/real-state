@@ -52,7 +52,9 @@ const navlinks = <>
         <div className="navbar-end">
 
          {
-          user ?  <button onClick={handleout} className="btn">logout</button>
+          user ? <div className="flex gap-4">  <div className="w-10 rounded-full">
+          <img src={user.photoURL} />
+        </div> <button onClick={handleout} className="btn">logout</button></div>
           :<Link to='/login'>
           <button className="btn">Login</button></Link>
         }
